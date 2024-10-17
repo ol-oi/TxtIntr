@@ -1,0 +1,11 @@
+Makefile~
+*.o
+*.d
+
+*.out
+*.exe
+
+*.log
+
+*.tmp
+*.temp
