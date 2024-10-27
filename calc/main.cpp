@@ -4,10 +4,10 @@
 #include <cstdlib>
 
 void printUsage() {
-    std::cout << "Использование: calculator -o <operation> <operand1> <operand2> ... <operandN>n";
-    std::cout << "Поддерживаемые операции:n";
-    std::cout << "  -o multiply (умножение)n";
-    std::cout << "  -o divide (деление первого операнда на все остальные)n";
+    std::cout << "Использование: calculator -o <operation> <operand1> <operand2> ... <operandN>\n";
+    std::cout << "Поддерживаемые операции:\n";
+    std::cout << "  -o multiply (умножение)\n";
+    std::cout << "  -o divide (деление первого операнда на все остальные)\n";
 }
 
 double multiply(const std::vector<double>& operands) {
