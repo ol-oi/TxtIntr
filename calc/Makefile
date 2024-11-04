@@ -4,7 +4,7 @@ RELEASE_FLAGS = -O2 -Wall -DNDEBUG
 DEBUG_FLAGS   = -g -O0 -Wall
 RELEASE_EXEC  = calculator
 DEBUG_EXEC    = calculator-dbg
-SOURCE        = main.cpp
+SOURCE        = calculator.cpp
 
 all: debug release
 
